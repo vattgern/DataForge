@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             <Link className="py-2 px-2.5 border-slate-200 border-2 rounded-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500" href="/">Data Forge</Link>
           </div>
           <div className="w-3/4 flex justify-end gap-2">
-            <Link className="py-2 px-2.5 border-slate-200 border-2 rounded-md font-semibold" href="/dev">Lorem</Link>
+            <Link className="py-2 px-2.5 border-slate-200 border-2 rounded-md font-semibold" href="/#featers">Возможности</Link>
             <Link className="py-2 px-2.5 border-slate-200 border-2 rounded-md font-semibold" href="/dev">Lorem</Link>
             <Link className="py-2 px-2.5 border-slate-200 border-2 rounded-md font-semibold" href="/dev">Lorem</Link>
           </div>

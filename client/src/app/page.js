@@ -4,10 +4,14 @@ export default function Home() {
       <section className="w-100 h-screen flex justify-center items-center">
         <h1 className="font-bold text-9xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
           <span>DATA &</span><br />
-          <span className="ml-9">FORGE</span>
+          <span style={
+            {
+              marginLeft: "100px"
+            }
+          }>FORGE</span>
         </h1>
       </section>
-      <section className="container">
+      <section className="container" id="featers">
         <h1 className="text-5xl font-bold">Возможности</h1>
         <section className="mt-5 p-5 grid grid-cols-4 grid-rows-3 gap-4 bg-gradient-to-r from-teal-500 to-blue-500 rounded">
           <div className="col-span-3 row-span-1 p-1.5 rounded-lg backdrop-blur-md bg-slate-500/[.50] text-white">
@@ -44,6 +48,6 @@ export default function Home() {
           </div>
         </section>
       </section>
-    </main>
+    </main >
   );
 }
