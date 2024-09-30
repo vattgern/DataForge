@@ -6,7 +6,6 @@ export default function InputFile() {
     const [file, setFile] = useState();
 
     function handleFile(event) {
-        // console.log(event.target.files[0]);
         setFile(event.target.files[0]);
     }
     function getFileName() {
